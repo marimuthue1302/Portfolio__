@@ -5,7 +5,7 @@ import "./TopContainer.css"
 
 const TopContainer = () => {
   return (
-    <Element name='about'>
+    <Element name='about' className='topcontainer'>
         <TopContent />
     </Element>
   )

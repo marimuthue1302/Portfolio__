@@ -2,5 +2,49 @@
 
 .topcontent {
     color: #fff;
-    
+    position: relative;
+}
+
+.topcontent__container {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+
+.topcontent__container > p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+
+.topcontent__container > a > button {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.topcontent__container > h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topcontent__downloadbutton {
+    color: #fff;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.topcontent__downloadbutton:hover {
+    color: #f64c08;
+    background-color: #fff;
+    font-weight: 600;
 }
