@@ -9,7 +9,7 @@ const TopContent = () => {
             <h1>Mr. Marimuthu Eswaran</h1>
             <p>A Professional Web Developer</p>
             <a href="">
-                <button className='topcontent__downloadbutton'>Dowmload CV</button>
+                <button className='topcontent__downloadbutton'>Download CV</button>
             </a>
         </div>
     </div>
